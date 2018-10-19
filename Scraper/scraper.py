@@ -58,7 +58,7 @@ with open("Govs.csv") as csv_file:
                 #didn't find the handle
                 else:
                     with open("handles.txt", "a") as text_file:
-                    text_file.write("No Twitter\n")
+                        text_file.write("No Twitter\n")
             #didn't have a page for this candidate
             else:
                 with open("handles.txt", "a") as text_file:
