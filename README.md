@@ -8,6 +8,7 @@ A Web Application to rate the sentiment of Tweets that reference Gubernatorial c
 1. Install npm
 2. npm install -g create-react-app
 3. Install Flask
+4. export FLASK_APP=app.py
 
 ### Sentiment Analysis
 1. Install NLTK
