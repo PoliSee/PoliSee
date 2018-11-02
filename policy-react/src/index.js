@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css'
 import {Line} from 'react-chartjs-2';
 const data = {
+	xAxisID: 'Time',
 	labels: [
-		'7 Days Ago',
 		'6 Days Ago',
 		'5 Days Ago',
 		'4 Days Ago',
 		'3 Days Ago',
 		'2 Days Ago',
-		'1 Day Ago'
+		'1 Day Ago',
+		'Today'
 	],
 	datasets: [{
 			label: 'Canditate 1',
