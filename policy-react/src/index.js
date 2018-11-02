@@ -42,6 +42,15 @@ const data = {
 };
 
 ReactDOM.render(
-  <Line data={data} />,
+  <div className="col-md-4"><Line data={data}
+height = {300}
+	options={
+		{
+        maintainAspectRatio: false
+    }
+	}
+
+
+	 /></div>,
   document.getElementById('root')
 );
