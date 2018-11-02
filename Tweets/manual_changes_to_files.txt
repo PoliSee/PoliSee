@@ -1,0 +1,15 @@
+gov_cand.csv
+
+-After running scraper.py, the csv of candidate information is generated.
+-I verified the twitter handles manually by double checking that those without a twitter handle actually did not have a handle
+-To get the candidate's party, I went to RaceSummary.xlsx and I copy pasted the name column
+-I then used the Find and Replace editor inside of LibreOffice to strip the text around the candidate's party.
+-(The candidates part affiliation is abbreviated next to their name using [x] where x is the abbreviation)
+-After getting that, I generated the list of handles from the list of twitter links by using the Find and Replace editor again.
+-My regex was .*//.*/ which matches any chars between the forward slashes (/).
+-Those characters were https and www.twitter.com, which I stripped by replacing the matched text with "" (by that I mean nothing in the replace box).
+
+
+csv_to_sentiment_json.py
+
+***OldTweets needs to be changed to TweetData once I get good tweets (need the 280 char version and not the 140, also need to get equal amount per date period).
