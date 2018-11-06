@@ -1,0 +1,12 @@
+{"candidateState": "Alabama", "party": "I", "twitter_handle": "No Page", "name": "Tony Hewitt Jr"}
+{
+    "candidateState": "Alabama",
+    "name": "Kay Ivey",
+    "party": "R",
+    "sentimentScores": [
+        1,
+        2,
+        3
+    ],
+    "twitter_handle": "https://www.twitter.com/kayiveyforgov"
+}
