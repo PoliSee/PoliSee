@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-
+import './Style.css';
 import ToDoListItem from "./components/toDoListItem";
 
 class App extends Component {
   state = {
     pageTitle: "Boxes Boxes Boxes",
-    homework: ["Start HW 4",
-    "Struggle with HW 4",
-    "Complain about HW 4 to friends",
+    homework: ["Start HW 6",
+    "Struggle with HW 6",
+    "Complain about HW 6 to friends",
     "Never actually get Help",
     "cry",
-    "Give up on Homework 4"],
-    storage: [["Start HW 4", ""],
-    ["Struggle with HW 4", ""],
-    ["Complain about HW 4 to friends", ""],
+    "Give up on Homework 6"],
+    storage: [["Start HW 6", ""],
+    ["Struggle with HW 6", ""],
+    ["Complain about HW 6 to friends", ""],
     ["Never actually get Help", ""],
     ["cry", ""],
-    ["Give up on Homework 4", ""]]
+    ["Give up on Homework 6", ""]]
   };
 
   addParameter = () => {
@@ -49,14 +49,11 @@ class App extends Component {
       <div>
         <h1 style={{textAlign: 'center'}}>{this.state.pageTitle}</h1>
         {this.state.homework.map(x => (
-          <div key={x} style={{textAlign: 'center', padding: '50px',
-            color: 'black', border: '5px inset RoyalBlue', margin: '5px',
-            background: 'DodgerBlue', height: '100px'}}>
-            <h3>{x}</h3>
-          <button value={x} style={{margin: '10px',padding: '10px', textAlign:
-            'center'}}
-            onClick={this.handleChange}>Show/Hide</button>
-
+          <div key={x} className="Boxes">
+            <div className="InnerBox">
+              <h3 className="Text">{x}</h3>
+            </div>
+          <button value={x} className="Button" onClick={this.handleChange}>Show/Hide</button>
           </div>
       ))}
       </div>
