@@ -23,15 +23,15 @@ else:
     #start running through twitter handle list
     gov_count = 0
     #open csv containing twitter handles
-    with open('Scraper/Govs.csv', newline='') as csv_file:
+    with open('gov_cand.csv', newline='') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
 
         #for every row, take the handle entry
         for row in csv_reader:
-            twitter_handle = row[3]
+            twitter_handle = row[4]
 
             #if entry starts with @, we know that this gov candidate has a handle
-            if twitter_handle[0] == '@':
+            if twitter_handle[0:3] != 'No ':
                 #print API rate limit status
                 print(api.rate_limit_status()['resources']['search'])
 
@@ -60,7 +60,7 @@ else:
                 print("Number of tweets: " + str(count))
 
                 #generate file string
-                file_string = 'Tweets/' + twitter_handle[1:] + '.csv'
+                file_string = 'TweetData/' + twitter_handle + '.csv'
 
                 #write entries of tweet_list to csv
                 with open(file_string, mode='w') as csv_file:

@@ -4,9 +4,11 @@ import re
 import nltk.sentiment
 import pandas as pd
 
+count = 0
 with open('gov_cand.csv', 'r') as govcsvfile:
     with open('tweetsentiment.json', 'w') as tweet_sentiment_file:
         fields = ("candidateState","name", "twitter_link", "party", "twitter_handle")
+        alljsonlist = []
 
         #skip the first line
         first_line = True
@@ -16,6 +18,9 @@ with open('gov_cand.csv', 'r') as govcsvfile:
 
         #loop through candidate file
         for row in reader:
+            count += 1
+            if count > 5:
+                break
             #save their twitter_link
             twitter_handle = row["twitter_handle"]
 
@@ -39,7 +44,6 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                 print(file_string)
 
                 #loop through the csv containing tweets
-
                 with open(file_string, 'r') as tweets_file:
 
                     tweet_reader = csv.reader(tweets_file, delimiter=',')
@@ -110,9 +114,12 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                 sentiment_list = []
 
                 #write this candidates information to their JSON file
-
+                '''
                 json.dump(twit_data, tweet_sentiment_file, sort_keys = True, indent = 4)
                 tweet_sentiment_file.write('\n')
+                '''
+
+                alljsonlist.append(twit_data)
 
                 #break to get only the first cand with a twitter handle
                 #break
@@ -120,5 +127,11 @@ with open('gov_cand.csv', 'r') as govcsvfile:
 
             #this handles the case where the candidate does not have a twitter handle
             else:
+                '''
                 json.dump(row, tweet_sentiment_file, sort_keys = True, indent = 4)
                 tweet_sentiment_file.write('\n')
+                '''
+
+                alljsonlist.append(row)
+        json.dump(alljsonlist, tweet_sentiment_file, sort_keys = True, indent = 4)
+        tweet_sentiment_file.write('\n')
