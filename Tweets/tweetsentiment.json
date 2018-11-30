@@ -1,12 +1,114 @@
-{"candidateState": "Alabama", "party": "I", "twitter_handle": "No Page", "name": "Tony Hewitt Jr"}
-{
-    "candidateState": "Alabama",
-    "name": "Kay Ivey",
-    "party": "R",
-    "sentimentScores": [
-        1,
-        2,
-        3
-    ],
-    "twitter_handle": "https://www.twitter.com/kayiveyforgov"
-}
+[
+    {
+        "candidateState": "Alabama ",
+        "name": "Tony Hewitt Jr ",
+        "party": "I ",
+        "twitter_handle": "No Page",
+        "twitter_link": "No Page "
+    },
+    {
+        "candidateState": "Alabama ",
+        "name": "Kay Ivey ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.63835
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.2023
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-11-27",
+                "sentiment_score": 0.17898
+            },
+            {
+                "date": "2018-11-26",
+                "sentiment_score": -0.0948125
+            },
+            {
+                "date": "2018-11-24",
+                "sentiment_score": -0.05103333333333334
+            },
+            {
+                "date": "2018-11-23",
+                "sentiment_score": -0.3552375
+            },
+            {
+                "date": "2018-11-22",
+                "sentiment_score": 0.32926666666666665
+            },
+            {
+                "date": "2018-11-21",
+                "sentiment_score": 0.25499999999999995
+            },
+            {
+                "date": "2018-11-20",
+                "sentiment_score": -0.29281999999999997
+            }
+        ],
+        "twitter_handle": "kayiveyforgov",
+        "twitter_link": "https://www.twitter.com/kayiveyforgov "
+    },
+    {
+        "candidateState": "Alabama ",
+        "name": "Eric Lathan ",
+        "party": "I ",
+        "twitter_handle": "No Page",
+        "twitter_link": "No Page "
+    },
+    {
+        "candidateState": "Alabama ",
+        "name": "Walt Maddox ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.21928000000000003
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.036718181818181816
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.46909999999999996
+            },
+            {
+                "date": "2018-11-27",
+                "sentiment_score": 0.29918
+            },
+            {
+                "date": "2018-11-26",
+                "sentiment_score": 0.4204285714285714
+            },
+            {
+                "date": "2018-11-25",
+                "sentiment_score": 0.1626695652173913
+            },
+            {
+                "date": "2018-11-24",
+                "sentiment_score": 0.04582499999999999
+            },
+            {
+                "date": "2018-11-23",
+                "sentiment_score": 0.11311538461538459
+            },
+            {
+                "date": "2018-11-22",
+                "sentiment_score": 0.4352076923076923
+            },
+            {
+                "date": "2018-11-21",
+                "sentiment_score": 0.38500000000000006
+            }
+        ],
+        "twitter_handle": "waltmaddox",
+        "twitter_link": "https://www.twitter.com/waltmaddox "
+    }
+]
