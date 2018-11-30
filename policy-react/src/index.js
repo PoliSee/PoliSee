@@ -35,7 +35,7 @@ const data = {
 
 ReactDOM.render(
   <div className="col-md-4"><Line data={data}
-height = {300}
+height = {400}
 	options={
 		{
         maintainAspectRatio: false
