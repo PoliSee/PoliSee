@@ -1,12 +1,63 @@
-{"candidateState": "Alabama", "party": "I", "twitter_handle": "No Page", "name": "Tony Hewitt Jr"}
 {
-    "candidateState": "Alabama",
-    "name": "Kay Ivey",
-    "party": "R",
+    "candidateState": "Alabama ",
+    "name": "Tony Hewitt Jr ",
+    "party": "I ",
+    "twitter_handle": "No Page",
+    "twitter_link": "No Page "
+}
+{
+    "candidateState": "Alabama ",
+    "name": "Kay Ivey ",
+    "party": "R ",
     "sentimentScores": [
-        1,
-        2,
-        3
+        {
+            "date": "2018-10-19",
+            "sentiment_score": 0.020871428571428572
+        },
+        {
+            "date": "2018-10-18",
+            "sentiment_score": 0.052233333333333326
+        },
+        {
+            "date": "2018-10-17",
+            "sentiment_score": 0.31889999999999985
+        },
+        {
+            "date": "2018-10-16",
+            "sentiment_score": 0.3250491228070176
+        },
+        {
+            "date": "2018-10-15",
+            "sentiment_score": 0.5166739837398368
+        },
+        {
+            "date": "2018-10-14",
+            "sentiment_score": 0.48004523809523814
+        },
+        {
+            "date": "2018-10-13",
+            "sentiment_score": 0.20343181818181819
+        },
+        {
+            "date": "2018-10-12",
+            "sentiment_score": 0.04904137931034485
+        },
+        {
+            "date": "2018-10-11",
+            "sentiment_score": 0.021452678571428574
+        },
+        {
+            "date": "2018-10-10",
+            "sentiment_score": -0.026716312056737603
+        }
     ],
-    "twitter_handle": "https://www.twitter.com/kayiveyforgov"
+    "twitter_handle": "kayiveyforgov",
+    "twitter_link": "https://www.twitter.com/kayiveyforgov "
+}
+{
+    "candidateState": "Alabama ",
+    "name": "Eric Lathan ",
+    "party": "I ",
+    "twitter_handle": "No Page",
+    "twitter_link": "No Page "
 }
