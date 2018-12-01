@@ -2,16 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import './index.css'
 import {Line} from 'react-chartjs-2';
+
+function obj_to_data(ar){
+	return ar.map( x => x["sentiment_score"])
+}
+
 const data = {
-	xAxisID: 'Time',
 	labels: [
-		'6 Days Ago',
-		'5 Days Ago',
-		'4 Days Ago',
-		'3 Days Ago',
-		'2 Days Ago',
-		'1 Day Ago',
-		'Today'
+		...Array(30).keys()
 	],
 	datasets: [
 		{
@@ -29,7 +27,7 @@ const data = {
 			pointHoverBackgroundColor: '#6bb9f9',
 			pointHoverBorderColor: '#914ad3',
 			pointHoverRadius: '15',
-			data: [28, 48, 40, 19, 86, 27, 90],
+			data: [1, 2, 3],
 	}]
 };
 
@@ -41,8 +39,6 @@ height = {400}
         maintainAspectRatio: false
     }
 	}
-
-
-	 /></div>,
+/></div>,
   document.getElementById('root')
 );
