@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def test():
-    with open("pokedex.json") as f:
-        s = json.load(f)
+    with open("../Tweets/tweetsentiment.json") as f:
+        data = f.read()
         f.close()
-    return str(s)
+        return data
+
