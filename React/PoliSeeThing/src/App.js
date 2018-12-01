@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import './Style.css';
 import ToDoListItem from "./components/toDoListItem";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   state = {
     pageTitle: "Boxes Boxes Boxes",
@@ -46,15 +45,17 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1 style={{textAlign: 'center'}}>{this.state.pageTitle}</h1>
+      <div className="container">
+        <h1 class="jumbotron">
+          {this.state.pageTitle}
+        </h1>
         {this.state.homework.map(x => (
-          <div key={x} className="Boxes">
-            <div className="InnerBox">
-              <h3 className="Text">{x}</h3>
+            <div class="card">
+              <div class="card-body">
+                {x}
+                <button value={x} className="btn btn-default" onClick={this.handleChange}>Change</button>
+              </div>
             </div>
-          <button value={x} className="Button" onClick={this.handleChange}>Show/Hide</button>
-          </div>
       ))}
       </div>
     );
