@@ -1,3 +1,6 @@
+
+
+import 'whatwg-fetch'
 import React from 'react'
 import ReactDOM from 'react-dom';
 import './index.css'
@@ -6,6 +9,12 @@ import {Line} from 'react-chartjs-2';
 function obj_to_data(ar){
 	return ar.map( x => x["sentiment_score"])
 }
+fetch('http://worldclockapi.com/api/json/est/now')
+  .then(function(response) {
+    return response.text()
+  }).then(function(body) {
+    document.body.innerHTML = body
+  })
 
 const data = {
 	labels: [
