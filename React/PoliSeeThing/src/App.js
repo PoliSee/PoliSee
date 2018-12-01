@@ -1,28 +1,68 @@
 import React, { Component } from "react";
+import ReactDOM from 'react-dom';
 import ToDoListItem from "./components/toDoListItem";
 import 'bootstrap/dist/css/bootstrap.min.css';
-class App extends Component {
-  state = {
-    pageTitle: "Boxes Boxes Boxes",
-    homework: ["Start HW 6",
-    "Struggle with HW 6",
-    "Complain about HW 6 to friends",
-    "Never actually get Help",
-    "cry",
-    "Give up on Homework 6"],
-    storage: [["Start HW 6", ""],
-    ["Struggle with HW 6", ""],
-    ["Complain about HW 6 to friends", ""],
-    ["Never actually get Help", ""],
-    ["cry", ""],
-    ["Give up on Homework 6", ""]]
-  };
+import 'whatwg-fetch'
+import {Line} from 'react-chartjs-2';
 
-  addParameter = () => {
-    this.setState({
-      homework: []
-    })
-  };
+function obj_to_data(ar){
+	return ar.map( x => x["sentiment_score"])
+}
+
+
+const data = {
+	labels: [
+		...Array(30).keys()
+	],
+	datasets: [
+		{
+			label: 'ChuChu',
+			backgroundColor: '#ff6666',
+			borderColor: '#09518c',
+			borderWidth: '3',
+			pointBackgroundColor: '#008cff',
+			pointBorderColor: '#09518c',
+			pointBorderWidth: '3',
+			pointRadius: '10',
+			pointStyle: 'rectRot',
+			pointRotation: '20',
+			pointHitRadius: '0',
+			pointHoverBackgroundColor: '#6bb9f9',
+			pointHoverBorderColor: '#914ad3',
+			pointHoverRadius: '15',
+			data: [1, 2, 3],
+	}]
+};
+
+class App extends Component {
+
+  constructor (props){
+    super(props);
+
+    this.state = {data:[]};
+
+    this.componentDidMount = this.componentDidMount.bind(this);
+
+  }
+  // addParameter = () => {
+  //   this.setState({
+  //     data: null
+  //   })
+  // };
+  componentDidMount(){
+    let that = this
+    fetch('http://127.0.0.1:5000', {mode: 'cors'})
+      .then(function(response) {
+        console.log(response)
+
+        return response.json()
+     }).then(function(body) {
+       console.log(body)
+       console.log(body.map( x => 1))
+       that.setState({data: Object.values(body)})
+       console.log('hi', body)
+     })
+  }
 
   handleDelete = event => {
     var newHomework = [...this.state.homework];
@@ -46,14 +86,21 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1 class="jumbotron">
-          {this.state.pageTitle}
+        <h1 className="jumbotron">
         </h1>
-        {this.state.homework.map(x => (
+          {this.state.data.map(x => (
             <div class="card">
               <div class="card-body">
-                {x}
-                <button value={x} className="btn btn-default" onClick={this.handleChange}>Change</button>
+                {x.name}
+                <button value={x.candidateState} className="btn btn-default" onClick={this.handleChange}>Change</button>
+                <div className="col-md-12"><Line data={data}
+              height = {400}
+              	options={
+              		{
+                      maintainAspectRatio: false
+                  }
+              	}
+              /></div>
               </div>
             </div>
       ))}
