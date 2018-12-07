@@ -15,13 +15,15 @@ atmosphere.
 3. npm install
 4. pip3 install flask
 5. pip3 install flask_cors
-6. export FLASK_APP=app.py
 
 ### Sentiment Analysis
 1. Install NLTK
 2. Download vader_lex corpus
+3. pip3 install tweepy
 
 ## How to Run
 
 ### Web App
 1. npm start
+2. flask run
+3. export FLASK_APP=app.py
