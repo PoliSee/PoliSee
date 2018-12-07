@@ -12,6 +12,18 @@
         "party": "R ",
         "sentimentScores": [
             {
+                "date": "2018-12-07",
+                "sentiment_score": -0.29286666666666666
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.34359999999999996
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.0
+            },
+            {
                 "date": "2018-11-30",
                 "sentiment_score": -0.63835
             },
@@ -22,34 +34,6 @@
             {
                 "date": "2018-11-28",
                 "sentiment_score": 0.0
-            },
-            {
-                "date": "2018-11-27",
-                "sentiment_score": 0.17898
-            },
-            {
-                "date": "2018-11-26",
-                "sentiment_score": -0.0948125
-            },
-            {
-                "date": "2018-11-24",
-                "sentiment_score": -0.05103333333333334
-            },
-            {
-                "date": "2018-11-23",
-                "sentiment_score": -0.3552375
-            },
-            {
-                "date": "2018-11-22",
-                "sentiment_score": 0.32926666666666665
-            },
-            {
-                "date": "2018-11-21",
-                "sentiment_score": 0.25499999999999995
-            },
-            {
-                "date": "2018-11-20",
-                "sentiment_score": -0.29281999999999997
             }
         ],
         "twitter_handle": "kayiveyforgov",
@@ -68,8 +52,36 @@
         "party": "D ",
         "sentimentScores": [
             {
+                "date": "2018-12-07",
+                "sentiment_score": 0.64515
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.2827076923076923
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.24672500000000003
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.09300000000000001
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.2204255319148936
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.26278113207547166
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.3404315789473684
+            },
+            {
                 "date": "2018-11-30",
-                "sentiment_score": 0.21928000000000003
+                "sentiment_score": 0.22771538461538463
             },
             {
                 "date": "2018-11-29",
@@ -78,37 +90,436 @@
             {
                 "date": "2018-11-28",
                 "sentiment_score": 0.46909999999999996
-            },
-            {
-                "date": "2018-11-27",
-                "sentiment_score": 0.29918
-            },
-            {
-                "date": "2018-11-26",
-                "sentiment_score": 0.4204285714285714
-            },
-            {
-                "date": "2018-11-25",
-                "sentiment_score": 0.1626695652173913
-            },
-            {
-                "date": "2018-11-24",
-                "sentiment_score": 0.04582499999999999
-            },
-            {
-                "date": "2018-11-23",
-                "sentiment_score": 0.11311538461538459
-            },
-            {
-                "date": "2018-11-22",
-                "sentiment_score": 0.4352076923076923
-            },
-            {
-                "date": "2018-11-21",
-                "sentiment_score": 0.38500000000000006
             }
         ],
         "twitter_handle": "waltmaddox",
         "twitter_link": "https://www.twitter.com/waltmaddox "
+    },
+    {
+        "candidateState": "Alaska ",
+        "name": "Mark Begich ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.4194
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.6369
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.4404
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.36345
+            }
+        ],
+        "twitter_handle": "MarkBegich",
+        "twitter_link": "https://www.twitter.com/MarkBegich "
+    },
+    {
+        "candidateState": "Alaska ",
+        "name": "Mike J. Dunleavy ",
+        "party": "R ",
+        "twitter_handle": "No Page",
+        "twitter_link": "No Page "
+    },
+    {
+        "candidateState": "Alaska ",
+        "name": "Bill Walker ",
+        "party": "I ",
+        "twitter_handle": "No Twitter",
+        "twitter_link": "No Twitter "
+    },
+    {
+        "candidateState": "Arizona ",
+        "name": "Doug Ducey ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.1138937500000003
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.14988884120171678
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.04749672131147541
+            }
+        ],
+        "twitter_handle": "dougducey",
+        "twitter_link": "https://www.twitter.com/dougducey "
+    },
+    {
+        "candidateState": "Arizona ",
+        "name": "David Garcia ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.053299999999999986
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.3182
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.3182
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.12412500000000003
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.0
+            }
+        ],
+        "twitter_handle": "dg4az",
+        "twitter_link": "https://www.twitter.com/dg4az "
+    },
+    {
+        "candidateState": "Arizona ",
+        "name": "Kevin McCormick ",
+        "party": "L ",
+        "twitter_handle": "No Twitter",
+        "twitter_link": "No Twitter "
+    },
+    {
+        "candidateState": "Arkansas ",
+        "name": "Asa Hutchinson ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.2402625
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.23604615384615388
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.09243636363636364
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.34502727272727274
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.07060000000000002
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.061116000000000004
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.05741428571428571
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.10127777777777777
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.04201081081081081
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.26056666666666667
+            }
+        ],
+        "twitter_handle": "wolfforpa",
+        "twitter_link": "https://www.twitter.com/wolfforpa "
+    },
+    {
+        "candidateState": "Arkansas ",
+        "name": "Jared Henderson ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.4019
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": -0.2138
+            }
+        ],
+        "twitter_handle": "JaredforGov",
+        "twitter_link": "https://www.twitter.com/JaredforGov "
+    },
+    {
+        "candidateState": "Arkansas ",
+        "name": "Mark West ",
+        "party": "L ",
+        "sentimentScores": [],
+        "twitter_handle": "MarkWest4Gov",
+        "twitter_link": "https://www.twitter.com/MarkWest4Gov "
+    },
+    {
+        "candidateState": "California ",
+        "name": "John H. Cox ",
+        "party": "R ",
+        "twitter_handle": "No Page",
+        "twitter_link": "No Page "
+    },
+    {
+        "candidateState": "California ",
+        "name": "Gavin Newsom ",
+        "party": "D ",
+        "sentimentScores": [],
+        "twitter_handle": "GavinNewsom",
+        "twitter_link": "https://www.twitter.com/GavinNewsom "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Marcus Giavanni ",
+        "party": "I ",
+        "twitter_handle": "No Twitter",
+        "twitter_link": "No Twitter "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Bill Hammons ",
+        "party": "UPA ",
+        "twitter_handle": "No Twitter",
+        "twitter_link": "No Twitter "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Scott Helker ",
+        "party": "L ",
+        "twitter_handle": "No Twitter",
+        "twitter_link": "No Twitter "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Jared Polis ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.14301038961038956
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.34824333333333335
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.10189642857142857
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.2342471698113208
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.3426310344827586
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.1682076923076923
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.3183000000000001
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.17374
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.1652111111111111
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.26835
+            }
+        ],
+        "twitter_handle": "polisforco",
+        "twitter_link": "https://www.twitter.com/polisforco "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Walker Stapleton ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.36579999999999996
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.18955
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.11760857142857145
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.012150000000000003
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.20147027027027026
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.17594137931034484
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.2653742424242424
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.19495
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.639
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.9042
+            }
+        ],
+        "twitter_handle": "WalkerStapleton",
+        "twitter_link": "https://www.twitter.com/WalkerStapleton "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Oz Griebel ",
+        "party": "I ",
+        "sentimentScores": [],
+        "twitter_handle": "ozforgovct",
+        "twitter_link": "https://www.twitter.com/ozforgovct "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Ned Lamont ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.2721552238805969
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.21926790123456782
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.3258524390243901
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.12155656565656546
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.1663628787878788
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.22576153846153835
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.31833030303030313
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.15279941860465127
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.22075818181818183
+            }
+        ],
+        "twitter_handle": "NedLamont",
+        "twitter_link": "https://www.twitter.com/NedLamont "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Bob Stefanowski ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.20095
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.06457272727272724
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.3753
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.7568
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.14985
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.20406666666666667
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.011400000000000021
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.056575
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": -0.34635
+            }
+        ],
+        "twitter_handle": "bobforgovernor",
+        "twitter_link": "https://www.twitter.com/bobforgovernor "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Micah Welintukonis ",
+        "party": "I ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.0695
+            }
+        ],
+        "twitter_handle": "MWelintukonis",
+        "twitter_link": "https://www.twitter.com/MWelintukonis "
+    },
+    {
+        "candidateState": "Florida ",
+        "name": "Riquet Caballero ",
+        "party": "L ",
+        "sentimentScores": [],
+        "twitter_handle": "riquet4liberty",
+        "twitter_link": "https://twitter.com/riquet4liberty "
     }
 ]

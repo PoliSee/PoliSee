@@ -19,7 +19,7 @@ with open('gov_cand.csv', 'r') as govcsvfile:
         #loop through candidate file
         for row in reader:
             count += 1
-            if count > 5:
+            if count > 26:
                 break
             #save their twitter_link
             twitter_handle = row["twitter_handle"]
