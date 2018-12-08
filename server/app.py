@@ -7,11 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
-def test():
+def home():
     with open("../Tweets/tweetsentiment.json") as f:
-        '''
-        data = f.read()
-        f.close()
-        '''
         data = jsonify(json.load(f))
         return data
