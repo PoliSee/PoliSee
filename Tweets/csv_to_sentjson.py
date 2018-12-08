@@ -2,7 +2,6 @@ import csv
 import json
 import re
 import nltk.sentiment
-import pandas as pd
 
 count = 0
 with open('gov_cand.csv', 'r') as govcsvfile:
@@ -19,19 +18,18 @@ with open('gov_cand.csv', 'r') as govcsvfile:
         #loop through candidate file
         for row in reader:
             count += 1
-            if count > 26:
+            if count > 80:
                 break
             #save their twitter_link
             twitter_handle = row["twitter_handle"]
-
-            print(type(twitter_handle))
+            cand_party = row["party"]
 
             #this skips the first line
             if first_line:
                 first_line = False
 
             #this checks if the candidate had a twitter handle
-            elif twitter_handle[0:3] != "No ":
+            elif twitter_handle[0:3] != "No " and (cand_party == "R " or cand_party == "D "):
 
                 #this will be our dictionary
                 twit_data = row
@@ -113,12 +111,7 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                 #clear the sentiment list
                 sentiment_list = []
 
-                #write this candidates information to their JSON file
-                '''
-                json.dump(twit_data, tweet_sentiment_file, sort_keys = True, indent = 4)
-                tweet_sentiment_file.write('\n')
-                '''
-
+                print(type(twit_data))
                 alljsonlist.append(twit_data)
 
                 #break to get only the first cand with a twitter handle
@@ -127,11 +120,10 @@ with open('gov_cand.csv', 'r') as govcsvfile:
 
             #this handles the case where the candidate does not have a twitter handle
             else:
-                '''
-                json.dump(row, tweet_sentiment_file, sort_keys = True, indent = 4)
-                tweet_sentiment_file.write('\n')
-                '''
+                row_temp = row
+                row_temp["sentimentScores"] = []
+                print(type(row_temp))
+                alljsonlist.append(row_temp)
 
-                alljsonlist.append(row)
         json.dump(alljsonlist, tweet_sentiment_file, sort_keys = True, indent = 4)
         tweet_sentiment_file.write('\n')
