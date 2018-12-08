@@ -8,35 +8,43 @@ function obj_to_data(ar){
 	return ar.map( x => x["sentiment_score"])
 }
 
+function wrappingtodata(array){
+	return {
+		labels: [
+			...Array(30).keys()
+		],
+		datasets: [
+			{
+				label: 'Can write anything here',
+				backgroundColor: '#ff6666',
+				borderColor: '#09518c',
+				borderWidth: '2',
+				pointBackgroundColor: '#008cff',
+				pointBorderColor: '#09518c',
+				pointBorderWidth: '3',
+				pointRadius: '5',
+				pointStyle: 'rectRot',
+				pointRotation: '20',
+				pointHitRadius: '0',
+				pointHoverBackgroundColor: '#6bb9f9',
+				pointHoverBorderColor: '#914ad3',
+				pointHoverRadius: '9',
+				data: array,
+		}]
+	};
 
-const data = {
-	labels: [
-		...Array(30).keys()
-	],
-	datasets: [
-		{
-			label: 'ChuChu',
-			backgroundColor: '#ff6666',
-			borderColor: '#09518c',
-			borderWidth: '3',
-			pointBackgroundColor: '#008cff',
-			pointBorderColor: '#09518c',
-			pointBorderWidth: '3',
-			pointRadius: '10',
-			pointStyle: 'rectRot',
-			pointRotation: '20',
-			pointHitRadius: '0',
-			pointHoverBackgroundColor: '#6bb9f9',
-			pointHoverBorderColor: '#914ad3',
-			pointHoverRadius: '15',
-			data: [1, 2, 3],
-	}]
-};
+
+}
+
+
+
 
 class App extends Component {
 
   constructor (props){
     super(props);
+
+
 
     this.state = {data:[]};
 
@@ -84,12 +92,13 @@ class App extends Component {
       <div className="container">
         <h1 className="jumbotron">
         </h1>
-          {this.state.data.map(x => (
+          {this.state.data.map(candidateInfo => (
             <div class="card">
               <div class="card-body">
-                {x.name}
-                <button value={x.candidateState} className="btn btn-default" onClick={this.handleChange}>Change</button>
-                <div className="col-md-12"><Line data={data}
+                <b>{candidateInfo.name} - ( {candidateInfo.party})<br></br> </b>
+								{candidateInfo.candidateState}
+                <button value={candidateInfo.candidateState} className="btn btn-default" onClick={this.handleChange}>Change</button>
+                <div className="col-md-12"><Line data={wrappingtodata(obj_to_data(candidateInfo.sentimentScores))}
               height = {400}
               	options={
               		{
