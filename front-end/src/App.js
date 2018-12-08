@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
-import ToDoListItem from "./components/toDoListItem";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'whatwg-fetch'
 import {Line} from 'react-chartjs-2';
