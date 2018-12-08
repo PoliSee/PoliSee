@@ -4,8 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'whatwg-fetch'
 import {Line} from 'react-chartjs-2';
 
-function obj_to_data(ar){
+function sdata_to_scores(ar){
 	return ar.map( x => x["sentiment_score"])
+}
+function sdata_to_labs(ar){
+	console.log(ar.map( x => x["date"]))
+	return ar.map( x => x["date"])
 }
 
 function party(s) {
@@ -19,11 +23,9 @@ function party(s) {
 	}
 }
 
-function wrappingtodata(array){
+function wrappingtodata(sData){
 	return {
-		labels: [
-			...Array(30).keys()
-		],
+		labels: sdata_to_labs(sData),
 		datasets: [
 			{
 				label: 'Can write anything here',
@@ -40,7 +42,7 @@ function wrappingtodata(array){
 				pointHoverBackgroundColor: '#6bb9f9',
 				pointHoverBorderColor: '#914ad3',
 				pointHoverRadius: '9',
-				data: array,
+				data: sdata_to_scores(sData),
 		}]
 	};
 }
@@ -67,24 +69,7 @@ class App extends Component {
      })
   }
 
-  handleDelete = event => {
-    var newHomework = [...this.state.homework];
-    var index = newHomework.indexOf(event.target.value);
-    newHomework.splice(index, 1);
-    this.setState({homework: newHomework});
-  };
 
-  handleChange = event => {
-    var newHomework = [...this.state.homework];
-    var tempHomework = [...this.state.storage];
-    var index = newHomework.indexOf(event.target.value);
-    var temp = tempHomework[index][0]
-    tempHomework[index][0] = tempHomework[index][1];
-    tempHomework[index][1] = temp;
-    newHomework[index] = tempHomework[index][0];
-    this.setState({homework: newHomework});
-    this.setState({storage: tempHomework});
-  }
 
   render() {
     return (
@@ -99,9 +84,7 @@ class App extends Component {
 							{candidateInfo.candidateState}
 							</div>
               <div class="card-body">
-
-                <button value={candidateInfo.candidateState} className="btn btn-default" onClick={this.handleChange}>Change</button>
-                <div className="col-md-12"><Line data={wrappingtodata(obj_to_data(candidateInfo.sentimentScores))}
+                <div className="col-md-12"><Line data={wrappingtodata(candidateInfo.sentimentScores)}
               height = {400}
               	options={
               		{
