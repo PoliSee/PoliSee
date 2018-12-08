@@ -1,10 +1,52 @@
 [
     {
         "candidateState": "Alabama ",
-        "name": "Tony Hewitt Jr ",
-        "party": "I ",
-        "twitter_handle": "No Page",
-        "twitter_link": "No Page "
+        "name": "Walt Maddox ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.645
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.283
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.247
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.093
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.22
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.263
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.34
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.228
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.037
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.469
+            }
+        ],
+        "twitter_handle": "waltmaddox",
+        "twitter_link": "https://www.twitter.com/waltmaddox "
     },
     {
         "candidateState": "Alabama ",
@@ -12,103 +54,1873 @@
         "party": "R ",
         "sentimentScores": [
             {
+                "date": "2018-12-07",
+                "sentiment_score": -0.293
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.344
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.0
+            },
+            {
                 "date": "2018-11-30",
-                "sentiment_score": -0.63835
+                "sentiment_score": -0.638
             },
             {
                 "date": "2018-11-29",
-                "sentiment_score": -0.2023
+                "sentiment_score": -0.202
             },
             {
                 "date": "2018-11-28",
                 "sentiment_score": 0.0
-            },
-            {
-                "date": "2018-11-27",
-                "sentiment_score": 0.17898
-            },
-            {
-                "date": "2018-11-26",
-                "sentiment_score": -0.0948125
-            },
-            {
-                "date": "2018-11-24",
-                "sentiment_score": -0.05103333333333334
-            },
-            {
-                "date": "2018-11-23",
-                "sentiment_score": -0.3552375
-            },
-            {
-                "date": "2018-11-22",
-                "sentiment_score": 0.32926666666666665
-            },
-            {
-                "date": "2018-11-21",
-                "sentiment_score": 0.25499999999999995
-            },
-            {
-                "date": "2018-11-20",
-                "sentiment_score": -0.29281999999999997
             }
         ],
         "twitter_handle": "kayiveyforgov",
         "twitter_link": "https://www.twitter.com/kayiveyforgov "
     },
     {
-        "candidateState": "Alabama ",
-        "name": "Eric Lathan ",
-        "party": "I ",
-        "twitter_handle": "No Page",
-        "twitter_link": "No Page "
-    },
-    {
-        "candidateState": "Alabama ",
-        "name": "Walt Maddox ",
+        "candidateState": "Alaska ",
+        "name": "Mark Begich ",
         "party": "D ",
         "sentimentScores": [
             {
-                "date": "2018-11-30",
-                "sentiment_score": 0.21928000000000003
+                "date": "2018-12-06",
+                "sentiment_score": -0.419
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.637
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.44
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.363
+            }
+        ],
+        "twitter_handle": "MarkBegich",
+        "twitter_link": "https://www.twitter.com/MarkBegich "
+    },
+    {
+        "candidateState": "Arizona ",
+        "name": "David Garcia ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.053
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.318
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.318
             },
             {
                 "date": "2018-11-29",
-                "sentiment_score": 0.036718181818181816
+                "sentiment_score": -0.124
             },
             {
                 "date": "2018-11-28",
-                "sentiment_score": 0.46909999999999996
-            },
-            {
-                "date": "2018-11-27",
-                "sentiment_score": 0.29918
-            },
-            {
-                "date": "2018-11-26",
-                "sentiment_score": 0.4204285714285714
-            },
-            {
-                "date": "2018-11-25",
-                "sentiment_score": 0.1626695652173913
-            },
-            {
-                "date": "2018-11-24",
-                "sentiment_score": 0.04582499999999999
-            },
-            {
-                "date": "2018-11-23",
-                "sentiment_score": 0.11311538461538459
-            },
-            {
-                "date": "2018-11-22",
-                "sentiment_score": 0.4352076923076923
-            },
-            {
-                "date": "2018-11-21",
-                "sentiment_score": 0.38500000000000006
+                "sentiment_score": 0.0
             }
         ],
-        "twitter_handle": "waltmaddox",
-        "twitter_link": "https://www.twitter.com/waltmaddox "
+        "twitter_handle": "dg4az",
+        "twitter_link": "https://www.twitter.com/dg4az "
+    },
+    {
+        "candidateState": "Arizona ",
+        "name": "Doug Ducey ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.111
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.15
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.047
+            }
+        ],
+        "twitter_handle": "dougducey",
+        "twitter_link": "https://www.twitter.com/dougducey "
+    },
+    {
+        "candidateState": "Arkansas ",
+        "name": "Jared Henderson ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.402
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": -0.214
+            }
+        ],
+        "twitter_handle": "JaredforGov",
+        "twitter_link": "https://www.twitter.com/JaredforGov "
+    },
+    {
+        "candidateState": "Arkansas ",
+        "name": "Asa Hutchinson ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.24
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.236
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.092
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.345
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.071
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.061
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.057
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.101
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.042
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.261
+            }
+        ],
+        "twitter_handle": "wolfforpa",
+        "twitter_link": "https://www.twitter.com/wolfforpa "
+    },
+    {
+        "candidateState": "California ",
+        "name": "Gavin Newsom ",
+        "party": "D ",
+        "sentimentScores": [],
+        "twitter_handle": "GavinNewsom",
+        "twitter_link": "https://www.twitter.com/GavinNewsom "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Jared Polis ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.139
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.348
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.102
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.234
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.343
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.168
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.318
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.174
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.165
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.268
+            }
+        ],
+        "twitter_handle": "polisforco",
+        "twitter_link": "https://www.twitter.com/polisforco "
+    },
+    {
+        "candidateState": "Colorado ",
+        "name": "Walker Stapleton ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.366
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.19
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.118
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.012
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.201
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.176
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.265
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.195
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.639
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.904
+            }
+        ],
+        "twitter_handle": "WalkerStapleton",
+        "twitter_link": "https://www.twitter.com/WalkerStapleton "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Ned Lamont ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.281
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.219
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.326
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.122
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.166
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.226
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.318
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.153
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.221
+            }
+        ],
+        "twitter_handle": "NedLamont",
+        "twitter_link": "https://www.twitter.com/NedLamont "
+    },
+    {
+        "candidateState": "Connecticut ",
+        "name": "Bob Stefanowski ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.201
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.065
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.375
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.757
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.15
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.204
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.011
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.057
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": -0.346
+            }
+        ],
+        "twitter_handle": "bobforgovernor",
+        "twitter_link": "https://www.twitter.com/bobforgovernor "
+    },
+    {
+        "candidateState": "Florida ",
+        "name": "Andrew Gillum ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.186
+            }
+        ],
+        "twitter_handle": "AndrewGillum",
+        "twitter_link": "https://www.twitter.com/AndrewGillum "
+    },
+    {
+        "candidateState": "Florida ",
+        "name": "Ron DeSantis ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.085
+            }
+        ],
+        "twitter_handle": "RonDeSantisFL",
+        "twitter_link": "https://www.twitter.com/RonDeSantisFL "
+    },
+    {
+        "candidateState": "Georgia ",
+        "name": "Stacey Abrams ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.133
+            }
+        ],
+        "twitter_handle": "staceyabrams",
+        "twitter_link": "https://www.twitter.com/staceyabrams "
+    },
+    {
+        "candidateState": "Georgia ",
+        "name": "Brian Kemp ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.586
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.107
+            }
+        ],
+        "twitter_handle": "BrianKempGA",
+        "twitter_link": "https://twitter.com/BrianKempGA "
+    },
+    {
+        "candidateState": "Hawaii ",
+        "name": "David Ige ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.294
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.168
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.066
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.394
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.428
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.008
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.341
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.419
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.101
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.226
+            }
+        ],
+        "twitter_handle": "GovHawaii",
+        "twitter_link": "https://twitter.com/GovHawaii "
+    },
+    {
+        "candidateState": "Hawaii ",
+        "name": "Andria Tupola ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.547
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.581
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.729
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.818
+            }
+        ],
+        "twitter_handle": "votetupola",
+        "twitter_link": "https://twitter.com/votetupola "
+    },
+    {
+        "candidateState": "Idaho ",
+        "name": "Paulette Jordan ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.676
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.068
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.03
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.31
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.218
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.401
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.25
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.32
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.03
+            }
+        ],
+        "twitter_handle": "PauletteEJordan",
+        "twitter_link": "https://www.twitter.com/PauletteEJordan "
+    },
+    {
+        "candidateState": "Idaho ",
+        "name": "Brad Little ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.242
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.132
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.062
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.255
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.599
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.542
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.178
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.134
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.392
+            }
+        ],
+        "twitter_handle": "LtGovBradLittle",
+        "twitter_link": "https://www.twitter.com/LtGovBradLittle "
+    },
+    {
+        "candidateState": "Illinois ",
+        "name": "J. B. Pritzker ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.216
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.048
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.089
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.285
+            }
+        ],
+        "twitter_handle": "jbpritzker",
+        "twitter_link": "https://twitter.com/jbpritzker "
+    },
+    {
+        "candidateState": "Illinois ",
+        "name": "Bruce Rauner ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.101
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.095
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.088
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.215
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.043
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.041
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": -0.058
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.065
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.195
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.02
+            }
+        ],
+        "twitter_handle": "BruceRauner",
+        "twitter_link": "https://www.twitter.com/BruceRauner "
+    },
+    {
+        "candidateState": "Iowa ",
+        "name": "Fred Hubbell ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.382
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.011
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.402
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": -0.293
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.508
+            }
+        ],
+        "twitter_handle": "fredhubbell",
+        "twitter_link": "https://www.twitter.com/fredhubbell "
+    },
+    {
+        "candidateState": "Iowa ",
+        "name": "Kim Reynolds ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.202
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.071
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.009
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.271
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.138
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.035
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.079
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.207
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.027
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.211
+            }
+        ],
+        "twitter_handle": "IAGovernor",
+        "twitter_link": "https://twitter.com/IAGovernor "
+    },
+    {
+        "candidateState": "Kansas ",
+        "name": "Laura Kelly ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.509
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.115
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.279
+            }
+        ],
+        "twitter_handle": "senatorkelly",
+        "twitter_link": "https://twitter.com/senatorkelly "
+    },
+    {
+        "candidateState": "Kansas ",
+        "name": "Kris Kobach ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.361
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.249
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.389
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.182
+            }
+        ],
+        "twitter_handle": "kriskobach1787",
+        "twitter_link": "https://twitter.com/kriskobach1787 "
+    },
+    {
+        "candidateState": "Maine ",
+        "name": "Janet Mills ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.182
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.175
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.156
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.231
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.145
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.121
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.018
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.23
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.245
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.064
+            }
+        ],
+        "twitter_handle": "janetmillsforme",
+        "twitter_link": "https://twitter.com/janetmillsforme "
+    },
+    {
+        "candidateState": "Maine ",
+        "name": "Shawn Moody ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.214
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.113
+            }
+        ],
+        "twitter_handle": "Moody4Gov",
+        "twitter_link": "https://twitter.com/Moody4Gov "
+    },
+    {
+        "candidateState": "Maryland ",
+        "name": "Ben Jealous ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": -0.052
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.276
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.241
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.27
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.083
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.306
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.402
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.17
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.117
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.003
+            }
+        ],
+        "twitter_handle": "BenJealous",
+        "twitter_link": "https://www.twitter.com/BenJealous "
+    },
+    {
+        "candidateState": "Maryland ",
+        "name": "Larry Hogan ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.26
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.475
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.01
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.141
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.09
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.043
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.215
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.37
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.283
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.225
+            }
+        ],
+        "twitter_handle": "LarryHogan",
+        "twitter_link": "https://www.twitter.com/LarryHogan "
+    },
+    {
+        "candidateState": "Massachusetts ",
+        "name": "Jay Gonzalez ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.468
+            }
+        ],
+        "twitter_handle": "jay4ma",
+        "twitter_link": "https://www.twitter.com/jay4ma "
+    },
+    {
+        "candidateState": "Massachusetts ",
+        "name": "Charlie Baker ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.883
+            }
+        ],
+        "twitter_handle": "BakerPolito",
+        "twitter_link": "https://www.twitter.com/BakerPolito "
+    },
+    {
+        "candidateState": "Michigan ",
+        "name": "Gretchen Whitmer ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.742
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.197
+            }
+        ],
+        "twitter_handle": "gretchenwhitmer",
+        "twitter_link": "https://www.twitter.com/gretchenwhitmer "
+    },
+    {
+        "candidateState": "Michigan ",
+        "name": "Bill Schuette ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.006
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.01
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.092
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.019
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.144
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.144
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": -0.049
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.03
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.125
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.0
+            }
+        ],
+        "twitter_handle": "SchuetteOnDuty",
+        "twitter_link": "https://www.twitter.com/SchuetteOnDuty "
+    },
+    {
+        "candidateState": "Minnesota ",
+        "name": "Jeff Johnson ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.025
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.014
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.108
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.249
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.384
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.424
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.446
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.071
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.201
+            }
+        ],
+        "twitter_handle": "mnjeffjohnson",
+        "twitter_link": "https://twitter.com/mnjeffjohnson "
+    },
+    {
+        "candidateState": "Nebraska ",
+        "name": "Bob Krist ",
+        "party": "D ",
+        "sentimentScores": [],
+        "twitter_handle": "bobkristne",
+        "twitter_link": "https://www.twitter.com/bobkristne "
+    },
+    {
+        "candidateState": "Nebraska ",
+        "name": "Pete Ricketts ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.625
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.039
+            }
+        ],
+        "twitter_handle": "RickettsForGov",
+        "twitter_link": "https://twitter.com/RickettsForGov "
+    },
+    {
+        "candidateState": "Nevada ",
+        "name": "Steve Sisolak ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.596
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.422
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.248
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.294
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.212
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.201
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.301
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.077
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.305
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.132
+            }
+        ],
+        "twitter_handle": "stevesisolak",
+        "twitter_link": "https://www.twitter.com/stevesisolak "
+    },
+    {
+        "candidateState": "Nevada ",
+        "name": "Adam Laxalt ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.513
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.429
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.181
+            }
+        ],
+        "twitter_handle": "AdamLaxalt",
+        "twitter_link": "https://www.twitter.com/AdamLaxalt "
+    },
+    {
+        "candidateState": "New Hampshire ",
+        "name": "Molly Kelly ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.153
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.146
+            }
+        ],
+        "twitter_handle": "NHMollyKelly",
+        "twitter_link": "https://www.twitter.com/NHMollyKelly "
+    },
+    {
+        "candidateState": "New Hampshire ",
+        "name": "Chris Sununu ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.401
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.469
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.126
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.335
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.69
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.525
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.506
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.599
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.453
+            }
+        ],
+        "twitter_handle": "ChrisSununu",
+        "twitter_link": "https://www.twitter.com/ChrisSununu "
+    },
+    {
+        "candidateState": "New Mexico ",
+        "name": "Michelle Lujan Grisham ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.018
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.405
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.101
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.246
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.561
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.436
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.265
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.072
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.192
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.238
+            }
+        ],
+        "twitter_handle": "Michelle4NM",
+        "twitter_link": "http://twitter.com/Michelle4NM "
+    },
+    {
+        "candidateState": "New Mexico ",
+        "name": "Steve Pearce ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.421
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.129
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.16
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.129
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.477
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.301
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.272
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.843
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.326
+            }
+        ],
+        "twitter_handle": "pearce4nm",
+        "twitter_link": "https://www.twitter.com/pearce4nm "
+    },
+    {
+        "candidateState": "New York ",
+        "name": "Andrew Cuomo ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": -0.421
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": -0.009
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.058
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.085
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.034
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.115
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.212
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.03
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.01
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.021
+            }
+        ],
+        "twitter_handle": "andrewcuomo",
+        "twitter_link": "https://www.twitter.com/andrewcuomo "
+    },
+    {
+        "candidateState": "New York ",
+        "name": "Marcus Molinaro ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.951
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.324
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.175
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.221
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.285
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.265
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.558
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.566
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.599
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.233
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.065
+            }
+        ],
+        "twitter_handle": "marcmolinaro",
+        "twitter_link": "https://www.twitter.com/marcmolinaro "
+    },
+    {
+        "candidateState": "Ohio ",
+        "name": "Richard Cordray ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.138
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.13
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.106
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.192
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.186
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.043
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.18
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.246
+            }
+        ],
+        "twitter_handle": "RichCordray",
+        "twitter_link": "https://www.twitter.com/RichCordray "
+    },
+    {
+        "candidateState": "Ohio ",
+        "name": "Mike DeWine ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.469
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.302
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.303
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.215
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.143
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.143
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.213
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.198
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.305
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.152
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.121
+            }
+        ],
+        "twitter_handle": "MikeDeWine",
+        "twitter_link": "https://www.twitter.com/MikeDeWine "
+    },
+    {
+        "candidateState": "Oklahoma ",
+        "name": "Drew Edmondson ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.026
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.0
+            }
+        ],
+        "twitter_handle": "DrewForOklahoma",
+        "twitter_link": "https://www.twitter.com/DrewForOklahoma "
+    },
+    {
+        "candidateState": "Oklahoma ",
+        "name": "Kevin Stitt ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.152
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.073
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.072
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.285
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.207
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.164
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.215
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.226
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.405
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.129
+            }
+        ],
+        "twitter_handle": "StittforGov",
+        "twitter_link": "https://www.twitter.com/StittforGov "
+    },
+    {
+        "candidateState": "Oregon ",
+        "name": "Kate Brown ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.355
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.15
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.103
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.18
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.091
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.064
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.478
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.02
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.402
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.338
+            }
+        ],
+        "twitter_handle": "KateBrownForOR",
+        "twitter_link": "https://www.twitter.com/KateBrownForOR "
+    },
+    {
+        "candidateState": "Oregon ",
+        "name": "Knute Buehler ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.037
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.096
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": -0.874
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": -0.194
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.0
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.075
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": -0.064
+            }
+        ],
+        "twitter_handle": "KnuteBuehler",
+        "twitter_link": "https://www.twitter.com/KnuteBuehler "
+    },
+    {
+        "candidateState": "Pennsylvania ",
+        "name": "Tom Wolf ",
+        "party": "D ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-08",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.24
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": 0.214
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.092
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.345
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.071
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.061
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.057
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.101
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.042
+            }
+        ],
+        "twitter_handle": "WolfForPA",
+        "twitter_link": "https://www.twitter.com/WolfForPA "
+    },
+    {
+        "candidateState": "Pennsylvania ",
+        "name": "Scott Wagner ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.128
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": -0.319
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.316
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.0
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": -0.154
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.026
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": -0.285
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.186
+            }
+        ],
+        "twitter_handle": "realscottwagner",
+        "twitter_link": "https://twitter.com/realscottwagner "
+    },
+    {
+        "candidateState": "Rhode Island ",
+        "name": "Allan Fung ",
+        "party": "R ",
+        "sentimentScores": [
+            {
+                "date": "2018-12-07",
+                "sentiment_score": 0.255
+            },
+            {
+                "date": "2018-12-06",
+                "sentiment_score": -0.28
+            },
+            {
+                "date": "2018-12-05",
+                "sentiment_score": 0.703
+            },
+            {
+                "date": "2018-12-04",
+                "sentiment_score": 0.517
+            },
+            {
+                "date": "2018-12-03",
+                "sentiment_score": 0.411
+            },
+            {
+                "date": "2018-12-02",
+                "sentiment_score": 0.246
+            },
+            {
+                "date": "2018-12-01",
+                "sentiment_score": 0.662
+            },
+            {
+                "date": "2018-11-30",
+                "sentiment_score": 0.349
+            },
+            {
+                "date": "2018-11-29",
+                "sentiment_score": 0.09
+            },
+            {
+                "date": "2018-11-28",
+                "sentiment_score": 0.0
+            }
+        ],
+        "twitter_handle": "MayorFung",
+        "twitter_link": "https://www.twitter.com/MayorFung "
     }
 ]

@@ -29,9 +29,10 @@ else:
         #for every row, take the handle entry
         for row in csv_reader:
             twitter_handle = row[4]
+            party_align = row[3]
 
             #if entry starts with @, we know that this gov candidate has a handle
-            if twitter_handle[0:3] != 'No ':
+            if party_align == 'R ' or party_align == 'D ':
                 #print API rate limit status
                 print(api.rate_limit_status()['resources']['search'])
 
