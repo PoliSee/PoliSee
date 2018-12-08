@@ -8,6 +8,17 @@ function obj_to_data(ar){
 	return ar.map( x => x["sentiment_score"])
 }
 
+function party(s) {
+	var s  = s.trim()
+	if (s == 'R') {
+		return <span class="text-danger">R</span>
+	} else if (s == 'D') {
+		return <span class="text-primary">D</span>
+	} else {
+		console.log(s)
+	}
+}
+
 function wrappingtodata(array){
 	return {
 		labels: [
@@ -32,30 +43,18 @@ function wrappingtodata(array){
 				data: array,
 		}]
 	};
-
-
 }
-
-
 
 
 class App extends Component {
 
   constructor (props){
     super(props);
-
-
-
     this.state = {data:[]};
-
     this.componentDidMount = this.componentDidMount.bind(this);
 
   }
-  // addParameter = () => {
-  //   this.setState({
-  //     data: null
-  //   })
-  // };
+
   componentDidMount(){
     let that = this
     fetch('http://127.0.0.1:5000', {mode: 'cors'})
@@ -91,12 +90,16 @@ class App extends Component {
     return (
       <div className="container">
         <h1 className="jumbotron">
+				PoliSee - Sentiment Analysis on Gubernatorial Candidates
         </h1>
           {this.state.data.map(candidateInfo => (
             <div class="card">
+							<div class="card-header">
+							<b>{candidateInfo.name} - ({party(candidateInfo.party)})<br></br> </b>
+							{candidateInfo.candidateState}
+							</div>
               <div class="card-body">
-                <b>{candidateInfo.name} - ( {candidateInfo.party})<br></br> </b>
-								{candidateInfo.candidateState}
+
                 <button value={candidateInfo.candidateState} className="btn btn-default" onClick={this.handleChange}>Change</button>
                 <div className="col-md-12"><Line data={wrappingtodata(obj_to_data(candidateInfo.sentimentScores))}
               height = {400}
