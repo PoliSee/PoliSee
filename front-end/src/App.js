@@ -28,7 +28,7 @@ function wrappingtodata(sData){
 		labels: sdata_to_labs(sData),
 		datasets: [
 			{
-				label: 'Can write anything here',
+				label: 'sentiment',
 				backgroundColor: '#ff6666',
 				borderColor: '#09518c',
 				borderWidth: '2',
