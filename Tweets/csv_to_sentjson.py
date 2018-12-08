@@ -18,7 +18,7 @@ with open('gov_cand.csv', 'r') as govcsvfile:
         #loop through candidate file
         for row in reader:
             count += 1
-            if count > 80:
+            if count > 110:
                 break
             #save their twitter_link
             twitter_handle = row["twitter_handle"]
@@ -29,7 +29,7 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                 first_line = False
 
             #this checks if the candidate had a twitter handle
-            elif twitter_handle[0:3] != "No " and (cand_party == "R " or cand_party == "D "):
+            elif twitter_handle[0:3] != "No " and cand_party == "R " or cand_party == "D ":
 
                 #this will be our dictionary
                 twit_data = row
@@ -94,7 +94,7 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                         else:
                             #create a dict to hold date and sentiment for this tweet
                             sentiment_instance = {"date" : bin_date,
-                                                  "sentiment_score" : (total_sentiment / bin_size),
+                                                  "sentiment_score" : round((total_sentiment / bin_size),3),
                             }
 
                             #add this instance to the sentiment_list
@@ -111,8 +111,14 @@ with open('gov_cand.csv', 'r') as govcsvfile:
                 #clear the sentiment list
                 sentiment_list = []
 
-                print(type(twit_data))
-                alljsonlist.append(twit_data)
+                #ordering is democract, republican by state (goes dem, rep, dem, rep, within the JSON)
+                if len(alljsonlist) > 0 and alljsonlist[-1]["candidateState"] == twit_data["candidateState"]:
+                    if twit_data["party"] == "D ":
+                        alljsonlist.insert(-1, twit_data)
+                    else:
+                        alljsonlist.append(twit_data)
+                else:
+                    alljsonlist.append(twit_data)
 
                 #break to get only the first cand with a twitter handle
                 #break
@@ -120,10 +126,13 @@ with open('gov_cand.csv', 'r') as govcsvfile:
 
             #this handles the case where the candidate does not have a twitter handle
             else:
+                #we have decided that if the candidate is not dem or repub, we will not include them.
+                '''
                 row_temp = row
                 row_temp["sentimentScores"] = []
                 print(type(row_temp))
                 alljsonlist.append(row_temp)
+                '''
 
         json.dump(alljsonlist, tweet_sentiment_file, sort_keys = True, indent = 4)
         tweet_sentiment_file.write('\n')
