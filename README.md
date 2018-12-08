@@ -25,5 +25,5 @@ atmosphere.
 
 ### Web App
 1. export FLASK_APP=app.py
-2. npm start
-3. flask run
+2. flask run (from server directory)
+3. npm start (from front-end directory)
