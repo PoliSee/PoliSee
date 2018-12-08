@@ -1,11 +1,13 @@
 from flask import Flask
 from flask import url_for
-import os
+from flask_cors import CORS
+import json
+from flask import jsonify
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
-def test():
-    with open("1.txt") as f:
-        s = f.read()
-        f.close()
-    return str(s)
+def home():
+    with open("../Tweets/tweetsentiment.json") as f:
+        data = jsonify(json.load(f))
+        return data
